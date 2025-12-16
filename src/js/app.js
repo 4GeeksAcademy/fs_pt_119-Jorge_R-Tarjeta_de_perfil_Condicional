@@ -58,18 +58,18 @@ window.onload = function() {
     background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
     // this is the url for the profile avatar
     avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
-    // social media bar position (left or right)
-    socialMediaPosition: "position-left",
+    // social media bar position (position-left or position-right)
+    socialMediaPosition: "position-right",
     // social media usernames
-    twitter: "@Twitter",
+    twitter: null,
     github: null,
     linkedin: null,
     instagram: null,
-    name: "Nombre",
-    lastName: "Apellido",
-    role: "Profesion",
+    name: null,
+    lastName: null,
+    role: null,
     country: null,
-    city: "Ciudad"
+    city: null
   };
   render(window.variables); // render the card for the first time
 
